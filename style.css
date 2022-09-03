@@ -1,0 +1,84 @@
+.body{
+    margin: 0px;
+    font-family:"Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #171a20;
+}
+li{
+    list-style: none;
+}
+section a{
+    color: #171a20;
+}
+.nav{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul{
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+}
+.logo svg{
+    width: 100px;
+    height: 12px;
+}
+@media screen and(max-width:1110px) {
+    .nav{
+        display: none;
+    }
+    
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: end;
+    z-index: 2;
+    display: none;
+    margin-top: 3.5rem;
+    background-color: #fff;
+    height: 100vh;
+}
+.overlay-content ul{
+    padding: 5rem;
+
+
+}
+section{
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.section-one{
+    background-image: url(images/first.jfif);
+}
+.drop-arrow{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+
+.section-two{
+    background-image: url(images/Desktop-ModelY.jfif);
+}
+.section-three{
+    background-image: url(images/Homepage-Model-S-Desktop-LHD.jfif);
+}
+.section-four{
+    background-image: url(images/Homepage-Model-X-Desktop-LHD.jfif);
+}
+.section-five{
+    background-image: url(images/panel.jfif);
+}
+.section-six{
+    background-image: url(images/Homepage-SolarRoof-Desktop-Global.webp);
+}
+.section-seven{
+    background-image: url(images/dd739764-bcaa-4263-9488-8c73bc9fb046.jfif);
+}
